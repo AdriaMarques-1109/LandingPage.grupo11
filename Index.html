@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AutoTeste: organize verificações, acompanhe alterações e visualize possíveis riscos antes de publicar uma versão do seu software.">
+  <title>AutoTeste — Mais clareza antes de publicar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#inicio">Auto<span>Teste</span></a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#problema">O problema</a>
+        <a href="#solucao">A solução</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#publico">Para quem</a>
+        <a href="#contato" class="nav-cta">Conhecer projeto ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="status-dot"></span> QUALIDADE DE SOFTWARE</span>
+
+        <h1>Publique com mais <span>clareza.</span></h1>
+
+        <p class="hero-description">
+          O AutoTeste ajuda você a organizar verificações, acompanhar
+          alterações e visualizar possíveis riscos antes de liberar uma
+          nova versão do seu software.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#recursos" class="btn btn-primary">Explorar recursos ↗</a>
+          <a href="#solucao" class="btn btn-secondary">Como funciona</a>
+        </div>
+
+        <div class="hero-proof">
+          <span>✓</span> Informações organizadas em um só lugar
+        </div>
+      </div>
+
+      <div class="dashboard">
+        <div class="dashboard-top">
+          <div>
+            <span class="mini-label">PAINEL DO PROJETO</span>
+            <h3>Resumo da versão</h3>
+          </div>
+          <span class="version-tag">v1.0.0</span>
+        </div>
+
+        <div class="risk-panel">
+          <div class="risk-heading">
+            <span>Índice de risco</span>
+            <span class="risk-badge">DEMONSTRAÇÃO</span>
+          </div>
+
+          <div class="score-row">
+            <strong class="score">32<span>/100</span></strong>
+            <span class="risk-status">Pontuação ilustrativa</span>
+          </div>
+
+          <div class="progress-track">
+            <div class="progress-fill"></div>
+          </div>
+
+          <p class="small-note">
+            Exemplo visual — não representa uma análise real.
+          </p>
+        </div>
+
+        <div class="check-list">
+          <div class="check-item">
+            <div class="check-icon">✓</div>
+            <div class="check-text">
+              <strong>Alterações registradas</strong>
+              <span>Dados da versão organizados</span>
+            </div>
+            <span class="item-status">Registrado</span>
+          </div>
+
+          <div class="check-item">
+            <div class="check-icon">⌕</div>
+            <div class="check-text">
+              <strong>Análise SAST heurística</strong>
+              <span>Busca por padrões no código</span>
+            </div>
+            <span class="item-status">Verificação</span>
+          </div>
+
+          <div class="check-item">
+            <div class="check-icon warning-icon">!</div>
+            <div class="check-text">
+              <strong>Testes e evidências</strong>
+              <span>Acompanhamento manual</span>
+            </div>
+            <span class="item-status">Registrar</span>
+          </div>
+        </div>
+
+        <div class="dashboard-footer">
+          <span class="footer-dot"></span>
+          <span>Painel demonstrativo do AutoTeste</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="problema">
+      <div class="section-heading">
+        <span class="eyebrow">O desafio</span>
+        <h2>Publicar uma versão não deveria ser um salto no escuro.</h2>
+        <p>
+          Mudanças no software podem gerar problemas. Sem organização,
+          fica mais difícil identificar o que precisa ser verificado.
+        </p>
+      </div>
+
+      <div class="three-grid">
+        <article class="info-card">
+          <div class="card-icon">!</div>
+          <h3>Riscos escondidos</h3>
+          <p>Uma alteração simples pode afetar outras partes do sistema.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">⌕</div>
+          <h3>Testes desorganizados</h3>
+          <p>É importante acompanhar quais verificações foram realizadas.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">↗</div>
+          <h3>Pouca visibilidade</h3>
+          <p>As equipes precisam entender os possíveis riscos antes da publicação.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="solution-section" id="solucao">
+      <div class="container solution-grid">
+        <div>
+          <span class="eyebrow">A solução</span>
+          <h2>Mais organização para acompanhar cada versão.</h2>
+          <p>
+            O AutoTeste reúne informações sobre projetos, alterações,
+            verificações e evidências. Com isso, fica mais fácil visualizar
+            os resultados e decidir quais pontos precisam de atenção.
+          </p>
+          <a href="#recursos" class="btn btn-primary">Conhecer os recursos ↗</a>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <span>01</span>
+            <div>
+              <h3>Organize</h3>
+              <p>Registre projetos, versões e alterações.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <span>02</span>
+            <div>
+              <h3>Verifique</h3>
+              <p>Consulte as análises disponíveis no sistema.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <span>03</span>
+            <div>
+              <h3>Acompanhe</h3>
+              <p>Visualize riscos estimados e evidências registradas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="recursos">
+      <div class="section-heading">
+        <span class="eyebrow">Funcionalidades</span>
+        <h2>Recursos para acompanhar a qualidade do software.</h2>
+        <p>
+          Ferramentas para reunir informações importantes sobre as versões
+          do seu projeto.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Projetos e versões</h3>
+          <p>Organize os projetos e acompanhe suas versões.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Análise SAST</h3>
+          <p>Verifique padrões suspeitos no código por meio de regras heurísticas.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Simulação DAST</h3>
+          <p>Consulte verificações simuladas, sem realizar requisições de rede.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">04</span>
+          <h3>Pontuação de risco</h3>
+          <p>Visualize uma estimativa baseada nas verificações disponíveis.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">05</span>
+          <h3>Evidências de testes</h3>
+          <p>Registre evidências manuais para documentar os testes realizados.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">06</span>
+          <h3>Painel de controle</h3>
+          <p>Consulte as principais informações em uma interface organizada.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="audience-section" id="publico">
+      <div class="container audience-content">
+        <span class="eyebrow">Público-alvo</span>
+        <h2>Para quem quer desenvolver com mais organização.</h2>
+        <p>
+          O AutoTeste pode ajudar estudantes de programação, desenvolvedores,
+          testadores e pequenas equipes que precisam acompanhar mudanças
+          e verificações de software.
+        </p>
+
+        <div class="audience-tags">
+          <span>Desenvolvedores</span>
+          <span>Estudantes</span>
+          <span>Testadores</span>
+          <span>Pequenas equipes</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section container" id="contato">
+      <div class="cta-card">
+        <span class="eyebrow">Conheça o projeto</span>
+        <h2>Quer saber mais sobre o AutoTeste?</h2>
+        <p>
+          Acesse o repositório para conhecer o projeto e acompanhar sua evolução.
+        </p>
+        <a
+          class="btn btn-light"
+          href="https://github.com/antonitsm/hackaton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Acessar no GitHub ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="brand" href="#inicio">Auto<span>Teste</span></a>
+      <p>Um MVP de apoio à análise de riscos de software.</p>
+      <a href="#inicio" class="back-top">Voltar ao início ↑</a>
+    </div>
+    <div class="container copyright">
+      <p>© <span id="year"></span> AutoTeste. Projeto em desenvolvimento.</p>
+    </div>
+  </footer>
+
+</body>
+                                                    </html>
